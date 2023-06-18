@@ -17,6 +17,7 @@
                                         buildInputs = [
                                             pkgs.cargo
                                             pkgs.rustc
+                                            pkgs.rustfmt
                                             # Necessary for the openssl-sys crate:
                                             pkgs.openssl
                                             pkgs.pkg-config
